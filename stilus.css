@@ -1,0 +1,40 @@
+main {
+    width: 200px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+header,
+footer {
+    padding: 10px;
+}
+article {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px;
+    grid-gap: 10px;
+}
+article div {
+    background: red;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+.infoSzoveg {
+    color: green;
+    font-size: 40px;
+    font-weight: bold;
+}
+.info {
+    padding: 10px;
+}
+.uj {
+    margin: 20px;
+    padding: 5px 20px;
+    border-radius: 8px;
+}
